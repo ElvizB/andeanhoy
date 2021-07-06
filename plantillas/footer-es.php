@@ -108,9 +108,10 @@
 
 
 <div class="aviso-cookies py-4" id="aviso-cookies">
+        <img class="galleta" src="<?php echo RUTA_IMG?>footer/cookie.svg" alt="galleta">
+        <h2 class="titulo">Nosotras usamos cookies</h2>
         <p>
-        Our website uses its own and third-party cookies, as well as analytics to improve your experience.<br>
-         We'll assume you're ok with this, but you can opt-out if you wish.
+            Nuestro sitio web utiliza cookies propias y de terceros, así como analíticas.
         </p>
        <div>
         <button class="boton-cookies" id="btn-aceptar-cookies">Acepto</button>

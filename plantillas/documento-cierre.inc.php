@@ -20,6 +20,7 @@
 <script type="text/javascript" src="<?php echo RUTA_JS?>app.js"></script>
 <script type="text/javascript" src="<?php echo RUTA_JS?>agente.js"></script>
 <script type="text/javascript" src="<?php echo RUTA_JS?>menu.js"></script>
+<script type="text/javascript" src="<?php echo RUTA_JS?>aviso-cookies.js"></script>
 <script type="text/javascript" src="<?php echo RUTA_JS?>drown-down.js"></script>
 <script type="text/javascript">
 // const langEl = document.querySelector(".langWrap");

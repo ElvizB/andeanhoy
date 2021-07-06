@@ -133,14 +133,18 @@
 
 </footer>
 
-<div>
-    <div class="aviso-cookies py-4" id="aviso-cookies">
+
+    <div>
+    <div class="aviso-cookies" id="aviso-cookies">
+        <img class="galleta" src="<?php echo RUTA_IMG?>footer/cookie.svg" alt="galleta">
+        <h2 class="titulo">We use cookies</h2>
         <p>
-        Nuestro sitio web utiliza cookies propias y de terceros, así como analíticas.<br>
-            Asumimos que está de acuerdo con esto, pero puede también denegar el permiso.
+        Our website uses its own and third-party cookies, as well as analytics to improve your experience. 
         </p>
-        <button class="boton-cookies" id="btn-aceptar-cookies">De acuerdo</button>
-        <a href="">Aviso de Cookies</a>
+       <div>
+        <button class="boton-cookies" id="btn-aceptar-cookies">Accept</button>
+        <a class="enlace-cookies" href="<?php echo RUTA_PAYMENTS_POLICIES_COOKIES ?>">Cookie Policy</a>
+       </div>
 
     </div>
-</div>
+    </div>

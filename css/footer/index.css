@@ -50,6 +50,73 @@
 }
 
 .aviso-cookies{
+    display: none;
+    background: white;
+    padding: 20px;
+    width: calc(100% - 40%);
+    max-width: 300px;
+    line-height: 100%;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    padding-top: 35px;
+    box-shadow: 0px 2px 20px 10px rgba(222,222,222,.5);
+    text-align: center;
+}
+.aviso-cookies.activo{
+    display: block;
+}
+.aviso-cookies .titulo{
+   margin-bottom: 15px;  
+   font-family: "Futura Heavy";
+   color: #16325c;
+
+}
+
+.aviso-cookies p{
+    font-family: "Futura Light";
+    font-size: 15px;
+    color: black;
+    
+}
+.aviso-cookies .galleta {
+    max-width: 50px;
+    position: absolute;
+    top: -25px;
+    left: calc(50% - 25px);
+}
+.aviso-cookies .boton-cookies{
+    width: 100%;
+     background: #003466;
+    border: none;
+    color: #fff;
+    font-family: "Futura Book";
+    text-align: center;
+    padding: 15px 20px;    
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 15px; 
+}
+.aviso-cookies .boton-cookies:hover{
+    background: black;
+}
+
+.aviso-cookies .enlace-cookies{
+    color: #4DBFFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Futura Book";
+    padding-left: 15px;
+}
+.aviso-cookies .enlace-cookies:hover{
+text-decoration: underline;
+}
+
+/* .aviso-cookies{
     position: fixed;
     right: 0;
     bottom: 0;
@@ -58,32 +125,48 @@
     background-color: #2f2e2e;
     color: wheat;
     text-align: center;
+    display: none;
 }
 
+.aviso-cookies.activo{
+    display: block;
+}
 .aviso-cookies p{
     font-family: "Futura Book";
     font-size: 15px;
-    color: #c7c1c1;
+    color: #c7c1c1;   
 }
 
 .aviso-cookies .boton-cookies{
     /* width: 100%; */
-    background: #003466;
+    /* background: #003466;
     border: none;
     color: #fff;
     font-family: "Futura Book";
     text-align: center;
-    padding: 15px 20px;
+    padding: 15px 20px; */
     /* font-weight: 700; */
-    cursor: pointer;
+    /* cursor: pointer;
     transition: .3s ease all;
     border-radius: 5px;
     margin-bottom: 15px;
-    font-size: 15px;
-}
+    font-size: 15px; 
+}*/
+/*
 .aviso-cookies .boton-cookies:hover{
     background: black;
 }
+
+.aviso-cookies .enlace-cookies{
+    color: #4DBFFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Futura Book";
+    padding-left: 15px;
+}
+.aviso-cookies .enlace-cookies:hover{
+text-decoration: underline;
+} */
 
 @media screen and (min-width: 768px) {
     .wrap-footer-principal{      

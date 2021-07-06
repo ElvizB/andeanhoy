@@ -105,3 +105,16 @@
     </div>
 
 </footer>
+
+
+<div class="aviso-cookies py-4" id="aviso-cookies">
+        <p>
+        Our website uses its own and third-party cookies, as well as analytics to improve your experience.<br>
+         We'll assume you're ok with this, but you can opt-out if you wish.
+        </p>
+       <div>
+        <button class="boton-cookies" id="btn-aceptar-cookies">Acepto</button>
+        <a class="enlace-cookies" href="<?php echo RUTA_POLITICAS_COOKIES ?>">Politicas de Cookies</a>
+       </div>
+
+    </div>

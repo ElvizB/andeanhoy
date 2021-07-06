@@ -3,8 +3,8 @@
 //https://andeantours.herokuapp.com/
 //http://localhost/andeanhoy/
 
-define("SERVIDOR", "http://localhost/andeanhoy/");
-define("SERVIDORES", "http://localhost/andeanhoy/");
+define("SERVIDOR", "https://andeantours.herokuapp.com/");
+define("SERVIDORES", "https://andeantours.herokuapp.com/");
 
 define("RUTA_INICIO", SERVIDORES."inicio");
 

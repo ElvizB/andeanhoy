@@ -3,8 +3,8 @@
 //https://andeantours.herokuapp.com/
 //http://localhost/andeanhoy/
 
-define("SERVIDOR", "https://andeantours.herokuapp.com/");
-define("SERVIDORES", "https://andeantours.herokuapp.com/");
+define("SERVIDOR", "http://localhost/andeanhoy/");
+define("SERVIDORES", "http://localhost/andeanhoy/");
 
 define("RUTA_INICIO", SERVIDORES."inicio");
 
@@ -46,6 +46,9 @@ define("RUTA_PAGOS_CANCELACIONES", SERVIDORES."pagos-cancelaciones-reembolsos");
 
 define("RUTA_HEALTH_PREVENTIVE", SERVIDOR."health-preventive-measures-against-the-spread-of-covid-19");
 define("RUTA_MEDIDAS_PREVENTIVAS", SERVIDORES."medidas-preventivas-sanitarias-contra-el-contagio-del-covid-19");
+
+define("RUTA_PAYMENTS_POLICIES_COOKIES", SERVIDOR."policy-cookie");
+define("RUTA_POLITICAS_COOKIES", SERVIDORES."politicas-cookies");
 
 //recursos
 define("RUTA_CSS", SERVIDOR . "css/");

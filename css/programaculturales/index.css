@@ -1,0 +1,289 @@
+.fondo-secundary {
+  background: #44515d;
+}
+.fondo-tercero {
+  background: #55636d;
+}
+
+.banner_cultural {
+  background-image: url("../../images/ProgramasCulturales/banner_m.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 130px);
+}
+
+.banner_ecologico {
+  background-image: url("../../images/ProgramasEcologicos/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 130px);
+}
+.banner_aventura {
+  background-image: url("../../images/aventura/banner_m.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 130px);
+}
+.banner_vivencial {
+  background-image: url("../../images/vivencial/banner_m.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 130px);
+}
+.banner_lujo1 {
+  background-image: url("../../images/lujo/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 130px);
+}
+.banner_lujo2 {
+  background-image: url("../../images/lujo/banner2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 130px);
+}
+.banner_lujo3 {
+  background-image: url("../../images/lujo/banner_3m.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 130px);
+}
+.banner_culinaria {
+  background-image: url("../../images/culinarias/banner_m.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 130px);
+}
+
+.banner_nosotros {
+  background-image: url("../../images/nosotros/nosotros.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 130px);
+}
+
+.banner_destinos {
+  background-image: url("../../images/destinos/destino.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 130px);
+}
+.banner_agente {
+  background-image: url("../../images/trabaja/trabaja.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 130px);
+}
+
+.bg-nota-ab {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: calc(100vh - 130px);
+}
+.p_titulo {
+  margin-bottom: 0rem !important;
+  font-family: "Futura Heavy";
+  font-size: 14px;
+}
+.p_subtitulo {
+  font-size: 0.6rem !important;
+  font-family: "Futura Light";
+}
+
+.p_descrip {
+  font-size: 0.7rem !important;
+  font-family: "Futura Medium";
+}
+.p_boton {
+  font-size: 0.5rem !important;
+  text-align: center !important;
+  font-family: "Futura Heavy";
+}
+
+.line {
+  border-bottom: 1px solid #44515d !important;
+}
+.w-80 {
+  width: 80% !important;
+}
+.w-20 {
+  width: 20% !important;
+}
+
+.fondo_day_descrip {
+  position: absolute;
+  z-index: 1;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  font-size: 0.7rem !important;
+  font-family: "Futura Heavy";
+}
+
+.triangulo_figura {
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  right: 3rem;
+  bottom: 10.7rem;
+}
+
+.card-body {
+  padding: 0.7rem !important;
+}
+
+.ContactoPC {
+  position: absolute;
+  z-index: 1;
+  bottom: 0rem;
+  left: 0rem;
+  background: #00000052;
+  padding: 8px;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Futura Medium";
+}
+.u-title-programs {
+  text-align: center;
+  padding: 1.5em 0;
+}
+.u-title-programs h1 {
+  font-family: "Futura Heavy";
+  padding-bottom: 0.5em;
+}
+.u-title-programs p {
+  font-family: "Futura Light";
+}
+
+.u-subtitle-progromas h1 {
+  padding-top: 1.5em;
+  font-family: "Futura Heavy";
+}
+
+.navbar-nav li a {
+  color: #16325c !important;
+}
+.navbar {
+  background: white;
+}
+.grid-title-programs {
+  height: 100%;
+  margin: auto;
+  max-width: 1024px;
+}
+.content-title-programs {
+  display: grid;
+  justify-content: center;
+  height: 100%;
+  align-content: center;
+  max-width: 700px;
+  margin: auto;
+  grid-template-rows: repeat(2, 1fr);
+}
+.nota-programas {
+  /* display: grid;
+  align-content: end;
+  padding: 2em 0; */
+  padding: 1.5em 0;
+  margin-top: 1em;
+}
+.nota-programas2 {
+  display: grid;
+  align-content: end;
+  padding: 15em 3em 0em;
+}
+.nota-programas2 h1 {
+  color: white;
+  font-family: "blackjar";
+  padding: 0 30px;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 9px 3px 8px black;
+}
+.bg-nota {
+  background: rgb(22, 50, 92);
+  background: linear-gradient(
+    180deg,
+    rgba(22, 50, 92, 0) 0%,
+    rgba(22, 50, 92, 1) 100%
+  );
+  /* background: #16325c; */
+  /* border-radius: 20px; */
+}
+.nota-programas h1 {
+  color: #bce1ea;
+  font-family: "blackjar";
+  padding: 0 5px;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 9px 3px 8px black;
+}
+.title-programas {
+  display: grid;
+  justify-content: center;
+  align-content: end;
+}
+.title-programas h1 {
+  color: white;
+  font-family: "Futura Book";
+  margin: 0;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px 20px;
+  text-align: center;
+}
+.autor {
+  color: #bce1ea !important;
+  font-family: "Futura Medium" !important;
+  font-size: 20px !important;
+}
+
+@media screen and (min-width: 540px) {
+  .banner_cultural {
+    background-image: url("../../images/ProgramasCulturales/banner_t.png");
+  }
+  .banner_aventura {
+    background-image: url("../../images/aventura/banner_t.png");
+  }
+  .banner_vivencial {
+    background-image: url("../../images/vivencial/banner_t.png");
+  }
+  .banner_lujo3 {
+    background-image: url("../../images/lujo/banner_3t.png");
+  }
+  .banner_culinaria {
+    background-image: url("../../images/culinarias/banner_t.png");
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nota-programas2 h1 {
+    font-size: 35px;
+  }
+  .autor {
+    font-size: 22px !important;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .banner_cultural {
+    background-image: url("../../images/ProgramasCulturales/banner.png");
+  }
+  .banner_aventura {
+    background-image: url("../../images/aventura/banner.png");
+  }
+  .banner_vivencial {
+    background-image: url("../../images/vivencial/banner.png");
+  }
+  .banner_lujo3 {
+    background-image: url("../../images/lujo/banner3.png");
+  }
+  .banner_culinaria {
+    background-image: url("../../images/culinarias/banner.png");
+  }
+}

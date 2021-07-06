@@ -1,0 +1,105 @@
+.color-blue {
+  /* color: #008acb !important; */
+  color: #16325c;
+}
+#contacto {
+  background: url(../../images/contactos/fondoC.jpg) no-repeat top;
+  background-attachment: fixed;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-size: cover;
+}
+
+.md-form label {
+  font-size: 0.8rem !important;
+}
+
+.card {
+  background: rgb(0, 138, 203, 0.5) !important;
+}
+.md-form label {
+  color: white !important;
+}
+
+.md-form input[type="date"],
+.md-form input[type="datetime-local"],
+.md-form input[type="email"],
+.md-form input[type="number"],
+.md-form input[type="password"],
+.md-form input[type="search-md"],
+.md-form input[type="search"],
+.md-form input[type="tel"],
+.md-form input[type="text"],
+.md-form input[type="time"],
+.md-form input[type="url"],
+.md-form textarea.md-textarea {
+  color: white !important;
+}
+
+.pt-7 {
+  padding-top: 12em !important;
+}
+
+hr {
+  width: 76%;
+  background: white !important;
+  margin-top: 0rem !important;
+}
+
+.testimonial span {
+  font-family: "Futura Heavy";
+}
+.title-contacto h1 {
+  color: white;
+  text-align: center;
+  font-family: "Futura Heavy";
+}
+
+.title-contacto h5 {
+  color: white;
+  text-align: center;
+  font-family: "Futura Light";
+}
+
+.select_form {
+  width: 100%;
+}
+.select_form select {
+  height: 42px;
+  line-height: 18px;
+  font-size: 14px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #c6c6c6;
+  -webkit-appearance: none;
+  appearance: none;
+  color: #ffffff;
+  background: transparent;
+  font-family: "Futura Light";
+}
+
+.select_form::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -4px;
+  border-top: 8px solid #ccc;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  pointer-events: none;
+}
+.select_form select:focus {
+  outline: none;
+}
+
+.select_form option:disabled {
+}
+.title_form label {
+  font-size: 15px;
+  font-family: "Futura Light";
+}
+
+.select_form select option {
+  color: black !important;
+}

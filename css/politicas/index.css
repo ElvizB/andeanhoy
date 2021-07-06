@@ -1,0 +1,53 @@
+.title-politicas h1{
+    font-family: "Futura Book";
+    color: black;
+}
+.title-politicas hr{
+    border-top: solid 2px #16325c;
+    width: 60px;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.back-politicas-secondary{
+    background: #f6f7fb;
+}
+.card-politica{
+    background: #ffffff;
+    padding: 15px;
+
+}
+.card-politica h2{
+    font-family: "Futura Book";
+}
+.card-politica p{
+    font-family: "Futura Light";
+    font-size: 15px;
+}
+.card-politica hr{
+    border-top: solid 2px #16325c;
+    width: 60px;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 25px;
+}
+.list-politica{
+    font-family: "Futura Light";
+    font-size: 16px;
+    padding-left: 10px;
+}
+.list-politica li{
+    margin-bottom: 1em;
+}
+.list-politica h4{
+    font-family: "Futura Heavy";
+    font-size: 16px;
+    text-decoration-line: underline;
+}
+
+@media screen and (min-width: 768px) {
+    .list-politica{        
+        padding-left: revert;
+    }
+
+}

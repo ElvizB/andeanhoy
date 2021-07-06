@@ -1,0 +1,94 @@
+.back-footer{
+    background:#eeeeee;
+    
+}
+.back-footer2{
+    background: #16325c;
+    text-align: center;
+}
+.back-footer2 > h2{
+    color: white;
+    font-size: 15px;
+    font-family: "Futura Light";
+    margin: 0;
+}
+.wrap-container-footer{
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 15px 0 15px;
+}
+.subtitle-footer >h6{
+    font-family: "Futura Heavy";
+    color: #16325c;
+    font-size: 15px;
+    margin-bottom: 2em;
+}
+.wrap-company{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 0em;
+}
+.wrap-contact-footer{
+    display: grid;
+    grid-template-columns: 7% 97%;
+}
+.letter-contact-footer{
+    font-family: "Futura Light";
+    font-size: 15px;
+}
+.list-policies-footer{
+    font-family: "Futura Light";
+    font-size: 15px;
+    padding-left: 15px;
+}
+.list-policies-footer li a {
+    color: black;
+}
+.wrap-footer-principal{
+    display: grid;
+    gap: 1.5em;
+}
+
+.aviso-cookies{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #2f2e2e;
+    color: wheat;
+    text-align: center;
+}
+
+.aviso-cookies p{
+    font-family: "Futura Book";
+    font-size: 15px;
+    color: #c7c1c1;
+}
+
+.aviso-cookies .boton-cookies{
+    /* width: 100%; */
+    background: #003466;
+    border: none;
+    color: #fff;
+    font-family: "Futura Book";
+    text-align: center;
+    padding: 15px 20px;
+    /* font-weight: 700; */
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.aviso-cookies .boton-cookies:hover{
+    background: black;
+}
+
+@media screen and (min-width: 768px) {
+    .wrap-footer-principal{      
+        grid-template-columns: 28% 23% 25% 18%;
+        grid-gap: 2%;
+    }
+
+}

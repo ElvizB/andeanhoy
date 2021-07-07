@@ -133,12 +133,9 @@
                     <a href="<?php echo RUTA_AGENTE ?>">AGENTES DE VIAJE</a>
                 </li>
                 <div class="bg-language-m">
-                    <a href="changelanguage.php?language=es" class="pr-3">
-                        <img src="images/ban-es.png" alt="">
-                    </a>
-                    <a href="changelanguage.php?language=en">
-                        <img src="images/ban-en.png" alt="">
-                    </a>
+                    <a href="<?php echo SERVIDORES?>">
+                            <img src="images/ban-en.png" alt="">
+                        </a>
                 </div>
             </ul>
         </div>

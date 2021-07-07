@@ -85,7 +85,7 @@
                     </a>    
                 </li>
                 <li>
-                <a href="" data-toggle="modal" data-target="#g_3">ESNNA</a>
+                    <a href="" data-toggle="modal" data-target="#g_3">ESNNA</a>
                                 <!-- Modal: modalCart -->
                                 <div class="modal fade" id="g_3" tabindex="-1" role="dialog"
                                     aria-labelledby="myModalLabel" aria-hidden="true">
@@ -110,7 +110,7 @@
                                         </div>
                                     </div>
                                 </div>
-                    <!-- Modal: modalCart -->
+                            <!-- Modal: modalCart -->
                 </li>                 
             </ul>
         </div>
@@ -133,18 +133,15 @@
 
 </footer>
 
-
+<div class="aviso-cookies" id="aviso-cookies">
+    <img class="galleta" src="<?php echo RUTA_IMG?>footer/cookie.svg" alt="galleta">
+    <h2 class="titulo">We use cookies</h2>
+    <p>
+    Our website uses its own and third-party cookies, as well as analytics to improve your experience. 
+    </p>
     <div>
-    <div class="aviso-cookies" id="aviso-cookies">
-        <img class="galleta" src="<?php echo RUTA_IMG?>footer/cookie.svg" alt="galleta">
-        <h2 class="titulo">We use cookies</h2>
-        <p>
-        Our website uses its own and third-party cookies, as well as analytics to improve your experience. 
-        </p>
-       <div>
-        <button class="boton-cookies" id="btn-aceptar-cookies">Accept</button>
-        <a class="enlace-cookies" href="<?php echo RUTA_PAYMENTS_POLICIES_COOKIES ?>">Cookie Policy</a>
-       </div>
+    <button class="boton-cookies" id="btn-aceptar-cookies">Accept</button>
+    <a class="enlace-cookies" href="<?php echo RUTA_PAYMENTS_POLICIES_COOKIES ?>">Cookie Policy</a>
+    </div>
 
-    </div>
-    </div>
+</div>

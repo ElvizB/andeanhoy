@@ -84,7 +84,34 @@
                         Medidas Preventivas Sanitarias Contra el Contagio del Covid-19
                     </a>    
                 </li>
-                <li>ESSNA</li>                 
+                <li>
+                    <a href="" data-toggle="modal" data-target="#g_3">ESNNA</a>
+                                <!-- Modal: modalCart -->
+                                <div class="modal fade" id="g_3" tabindex="-1" role="dialog"
+                                    aria-labelledby="myModalLabel" aria-hidden="true">
+
+                                    <!-- Change class .modal-sm to change the size of the modal -->
+                                    <div class="modal-dialog modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header bg-modal">
+                                                <h4 class="modal-title w-100" id="myModalLabel"></h4>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="">
+                                                <div class="img_galaria_modal">
+                                                    <img src="<?php echo RUTA_IMG?>footer/esnna.jpg" draggable="false"
+                                                        class="img-fluid p-4" />
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- Modal: modalCart -->
+                </li>          
             </ul>
         </div>
 
@@ -107,9 +134,9 @@
 </footer>
 
 
-<div class="aviso-cookies py-4" id="aviso-cookies">
+<div class="aviso-cookies" id="aviso-cookies">
         <img class="galleta" src="<?php echo RUTA_IMG?>footer/cookie.svg" alt="galleta">
-        <h2 class="titulo">Nosotras usamos cookies</h2>
+        <h2 class="titulo">Nosotros usamos cookies</h2>
         <p>
             Nuestro sitio web utiliza cookies propias y de terceros, así como analíticas.
         </p>

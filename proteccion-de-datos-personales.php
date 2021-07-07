@@ -18,14 +18,14 @@ $titulo = 'Andean Tours';
         <div class="container">
            <div class="card-politica py-4 z-depth-1">
                <p>
-                 ANDEAN TOURS SRL, en Conformidad con lo establecido en la Ley N° 29733 Ley de Protección de Datos Personales y su Reglamento, manifiesta lo siguiente:
+               <span class="bold-word">ANDEAN TOURS SRL</span>, en Conformidad con lo establecido en la Ley N° 29733 Ley de Protección de Datos Personales y su Reglamento, manifiesta lo siguiente:
                </p>
                <ol class="list-politica">
                    <li>
-                        ANDEAN TOURS SRL, en calidad de titular de los bancos de datos personales bajo su responsabilidad, se compromete a mantener la máxima reserva y protección de datos personales suministrados por usuarios, proveedores, colaboradores, visitantes, aliados estratégicos y ciudadanía en general.
+                   <span class="bold-word">ANDEAN TOURS SRL</span>, en calidad de titular de los bancos de datos personales bajo su responsabilidad, se compromete a mantener la máxima reserva y protección de datos personales suministrados por usuarios, proveedores, colaboradores, visitantes, aliados estratégicos y ciudadanía en general.
                    </li>
                    <li>
-                        Los datos personales facilitados se almacenarán en los bancos de datos de titularidad de ANDEAN TOURS SRL y serán tratados, según corresponda, para poder llevar a cabo las finalidades inherentes a la actividad de la organización, tales como:
+                        Los datos personales facilitados se almacenarán en los bancos de datos de titularidad de <span class="bold-word">ANDEAN TOURS SRL</span> y serán tratados, según corresponda, para poder llevar a cabo las finalidades inherentes a la actividad de la organización, tales como:
                         <ul>
                           <li>Promociones de productos turísticos.</li>
                           <li>Reservas turísticas para el desarrollo de los paquetes turísticos.</li>

@@ -40,7 +40,7 @@ $titulo = 'Andean Tours';
                             <ul>
                                 <li>Bank account in dollars: 194-1487420-1-53</li>
                             </ul>
-                        <p>Payable to: ANDEAN TOURS SRL</p>
+                        <p>Payable to: <span class="bold-word">ANDEAN TOURS SRL</span></p>
 
                     <li>The payment vouchers will be digitally.</li>
 

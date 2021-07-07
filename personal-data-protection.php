@@ -19,14 +19,14 @@ $titulo = 'Andean Tours';
         <div class="container">
            <div class="card-politica py-4 z-depth-1">
                <p>
-                   ANDEAN TOURS SRL, in accordance with the provisions of Law No. 29733 Personal Data Protection Law and its Regulations, states the following:
+                   <span class="bold-word">ANDEAN TOURS SRL</span>, in accordance with the provisions of Law No. 29733 Personal Data Protection Law and its Regulations, states the following:
                </p>
                <ol class="list-politica">
                    <li>
-                        ANDEAN TOURS SRL, as the owner of the personal data banks under its responsibility, undertakes to maintain the maximum reserve and protection of personal data supplied by users, suppliers, collaborators, visitors, strategic allies and the general public.
+                   <span class="bold-word">ANDEAN TOURS SRL</span>, as the owner of the personal data banks under its responsibility, undertakes to maintain the maximum reserve and protection of personal data supplied by users, suppliers, collaborators, visitors, strategic allies and the general public.
                    </li>
                    <li>
-                    The personal data provided will be stored in the data banks owned by ANDEAN TOURS SRL and will be processed, as appropriate, in order to carry out the purposes inherent to the activity of the organization, such as:
+                    The personal data provided will be stored in the data banks owned by <span class="bold-word">ANDEAN TOURS SRL</span> and will be processed, as appropriate, in order to carry out the purposes inherent to the activity of the organization, such as:
                         <ul>
                            <li>Promotions of tourist products.</li>
                            <li>Tourist reservations for the development of tourist packages.</li>

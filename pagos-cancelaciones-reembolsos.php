@@ -40,7 +40,7 @@ $titulo = 'Andean Tours';
                             <ul>
                                 <li>Cuenta corriente en dólares:   194-1487420-1-53</li>
                             </ul>
-                        <p>A nombre de: ANDEAN TOURS SRL</p>
+                        <p>A nombre de: <span class="bold-word">ANDEAN TOURS SRL</span></p>
 
                     <li>Los comprobantes de pago serán de manera digital.</li>
 

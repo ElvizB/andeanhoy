@@ -6,7 +6,7 @@
                 <div class="subtitle-footer">
                     <h6 class="wow fadeIn" data-wow-delay="0.3s">Síguenos :</h6>
 
-                    <a href="https://www.facebook.com/andeanreceptivo" target="_blank" class="mx-1">
+                    <a href="https://www.facebook.com/andeantoursexperiences" target="_blank" class="mx-1">
                         <img src="<?php echo RUTA_IMG?>footer/fb.png" class="img-fluid"
                         alt="Responsive image">
                     </a>
